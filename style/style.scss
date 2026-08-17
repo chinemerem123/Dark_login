@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    padding:0 ;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../image/darkbg.png)
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 45% 55%;
+    overflow: hidden;
+
+
+    .box1{
+        background-color: transparent;
+    }
+
+    .box2{
+        width: 80%;
+        height: 91.5vh;
+        background-color:  #111419;
+        border: 1px solid #dfb06a;
+        border-radius: 10px;
+        position: relative;
+        margin-left: auto;
+        margin-top:50px;
+
+        .sun{
+            color: white;
+            position: relative;
+            margin-left: 560px;
+            margin-top: 20px;
+        }
+
+        .welicon{
+            position: absolute;
+            img{
+                width: 20%;
+                height: 20%;
+                position: relative;
+                left: calc(50% - 10%);
+                top: 55px;
+            }
+
+            h2{
+                color: white;
+                font-weight: 600;
+                position: relative;
+                display: flex;
+                text-align: center;
+                justify-content: center;
+                top: 52px;
+            }
+
+
+
+
+        }
+    }
+
+
+
+    
+
+
+}
