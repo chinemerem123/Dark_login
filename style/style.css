@@ -41,7 +41,7 @@ body {
   margin-top: 20px;
 }
 .container .box2 .welicon {
-  position: absolute;
+  position: relative;
 }
 .container .box2 .welicon img {
   width: 20%;
